@@ -10,10 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_14_143513) do
+ActiveRecord::Schema.define(version: 2018_11_14_161741) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "itemdjeuns", force: :cascade do |t|
+    t.string "add_youtube"
+    t.string "acc_twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "itemstandarts", force: :cascade do |t|
+    t.string "add_youtube"
+    t.string "acc_twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "itemtowns", force: :cascade do |t|
+    t.string "add_youtube"
+    t.string "acc_twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "mail_djeuns", force: :cascade do |t|
     t.string "name"

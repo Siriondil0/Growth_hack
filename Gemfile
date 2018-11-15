@@ -6,7 +6,7 @@ gem 'rspec-rails'
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'gmail'
 gem 'twitter'
-gem 'meetup_client'
+gem 'pinterest-api'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record

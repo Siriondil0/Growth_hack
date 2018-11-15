@@ -61,6 +61,7 @@ body {
 	color:#888888;
 	margin:0;
 }
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -475,20 +476,56 @@ border: 2px solid #fff;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
+
+
+.c-logo-part-gotham{
+	background:white;
+	padding:25px 0;
+    filter: alpha(opacity=60);
+}
+
+
 .c-logo-part ul{
 	padding:0;
 	margin:0;
 	list-style:none;
 	text-align:center;
 }
+
+.c-logo-part-gotham ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+
+
+
+
 .c-logo-part ul li{
 	display:inline;
 	margin:0 25px;
 }
+
+.c-logo-part-gotham ul li{
+	display:inline;
+	margin:0 25px;
+}
+
+
+
+
 .c-logo-part ul a{
 	display:inline-block;
 	margin: 0 20px;
 }
+
+.c-logo-part-gotham ul a{
+	display:inline-block;
+	margin: 0 20px;
+}
+
+
 .main-section.team{
 	padding:85px 0;
 }
@@ -503,6 +540,8 @@ border: 2px solid #fff;
 	max-width:993px;
 	margin:0 auto;
 }
+
+
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;

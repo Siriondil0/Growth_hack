@@ -13,6 +13,19 @@ end
 class Twitter
   def add_a_twit (item)
     
-    client.update('@sassani134 test tweet')
+    client.update('Coucou rejoins notre grande école du numérique, The Hacking project.c\'est gratuit ' )
+
+  end
+  
+  def add_a_twit_djeun (item)
+    
+    client.update('Yo, tu tes toujours demandé comment chemar Instagram, Facebook. Inscrit toi dans notre grande école du numérique. Aucun soucis on part de zéro pour
+    	 pas que tu sois paumé. Faits pas ta lopette rejoins nous.')
+  end
+
+    def add_a_twit_town (item)
+    
+    client.update('Le codage t\'apelle, deviens un super en rejoignant notre grande école du numérique,
+    	 The Hacking project.Pas besoin d\'être aussi riche que Waynes c\'est gratuit ')
   end
 end

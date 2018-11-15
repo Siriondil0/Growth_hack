@@ -15,7 +15,7 @@ class Email
       gmail = Gmail.connect!(ENV["GMAIL_USERNAME"], ENV["GMAIL_PSW"]) #on se connecte à notre compte
 
       email = gmail.compose do #on fait un compose pour préparer l'email 
-        to "#{mail}" # on l'envoie à  chaque email de la colonne 2 du csv   
+        to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
         subject "THP - L'école de programmation gratuite ! "
         body  "Bonjour je m'appelle Jhon , je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
 
@@ -39,7 +39,7 @@ def format_emails_djeun
       gmail = Gmail.connect!(ENV["GMAIL_USERNAME"], ENV["GMAIL_PSW"]) #on se connecte à notre compte
 
       email = gmail.compose do #on fait un compose pour préparer l'email 
-        to "#{mail}" # on l'envoie à  chaque email de la colonne 2 du csv   
+        to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
         subject "THP - L'école de programmation gratuite ! "
         body  "Bonjour je m'appelle Jhon, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
 
@@ -63,7 +63,7 @@ def format_emails_town
       gmail = Gmail.connect!(ENV["GMAIL_USERNAME"], ENV["GMAIL_PSW"]) #on se connecte à notre compte
 
       email = gmail.compose do #on fait un compose pour préparer l'email 
-        to "#{mail}" # on l'envoie à  chaque email de la colonne 2 du csv   
+        to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
         subject "THP - L'école de programmation gratuite ! "
         body  "Bonjour je m'appelle Jhon, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
 

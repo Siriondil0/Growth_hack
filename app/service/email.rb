@@ -41,10 +41,10 @@ def format_emails_djeun
       email = gmail.compose do #on fait un compose pour préparer l'email 
         to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
         subject "THP - L'école de programmation gratuite ! "
-        body  "Bonjour je m'appelle Jhon, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
+        body  "Bonjour je m'appelle Grizou, je suis champion du monde mais avant tous élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique et sans arbitre. 
 
-La pédagogie de notre école est celle du peer-learning, où nous travaillons par petits groupes sur des projets concrets qui font apprendre le code. 
-Le projet du jour est d'envoyer (avec du codage) des emails aux future diplomé pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous. Déjà 500 personnes sont passées par The Hacking Project. 
+La pédagogie de notre école est celle du peer-learning, où nous travaillons par petites équipes sur des projets concrets qui font apprendre le code. 
+Le projet du jour est d'envoyer (avec du codage) des emails aux future champion de la coupe du monde pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous. Déjà 500 footbaler sont passées par The Hacking Project après avoir fini leurs carrières de foot pro. 
 
 
             
@@ -64,11 +64,11 @@ def format_emails_town
 
       email = gmail.compose do #on fait un compose pour préparer l'email 
         to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
-        subject "THP - L'école de programmation gratuite ! "
-        body  "Bonjour je m'appelle Jhon, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
+        subject "THP - La bat-école de programmation gratuite ! "
+        body  "Bonjour je suis Oracle, j'ai été élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
 
 La pédagogie de notre école est celle du peer-learning, où nous travaillons par petits groupes sur des projets concrets qui font apprendre le code. 
-Le projet du jour est d'envoyer (avec du codage) des emails aux future diplomé pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous. Déjà 500 personnes sont passées par The Hacking Project. 
+Le projet du jour est d'envoyer (avec du codage) des emails aux future super héros pour qu'ils nous aident à faire de The Hacking Project le nouveau bras de la justice pour Gotha-City. Déjà 500 super héros sont passées par The Hacking Project. 
 
 
             

@@ -10,7 +10,7 @@ gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'gmail'
 gem 'twitter'
 gem 'pinterest-api'
-
+gem 'rails-controller-testing'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record

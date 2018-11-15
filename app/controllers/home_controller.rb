@@ -2,7 +2,13 @@ class HomeController < ApplicationController
   def index
   end
 
- 	def gotham
+  def gotham
+  end
+
+  def classic
+  end
+
+  def griezmann
   end
 
   def modern

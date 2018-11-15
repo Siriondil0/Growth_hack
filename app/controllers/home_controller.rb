@@ -5,4 +5,7 @@ class HomeController < ApplicationController
  	def gotham
   end
 
+  def arkham
+    MailTown.create!(name: params[:name], email: params[:email])
+  end
 end

@@ -5,8 +5,6 @@ ruby '2.5.1'
 
 
 gem 'jquery-rails'
-
-=======
 gem 'rspec-rails'
 gem 'dotenv-rails', :require => 'dotenv/rails-now'
 gem 'gmail'

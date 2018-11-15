@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/classic', to: 'home#classic'
   get '/griezmann', to: 'home#griezmann'
 
+  post '/gotham', to: 'home#arkham'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

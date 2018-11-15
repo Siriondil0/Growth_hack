@@ -1,24 +1,31 @@
-# README
+# THP Jeudi S7
+## Growth_hack-project :
+Enoncé :
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Frontend
 
-Things you may want to cover:
 
-* Ruby version
+## Backend
+1. Création des clés api Twitter et Gmail.
+2. Code en ruby des system des mails et des twitts. action répété 3 fois pour les 3 LP
+3. Test avec une fausse Liste de mailling et de twitts
+4. Intégragation de Heroku sheduler
+5. Fusion de la branch backend avec la branch master
+6. Imbrication du frontend avec le backend
 
-* System dependencies
+## finalisation
+1. test avec rspect
 
-* Configuration
+## Lien Heroku ::tiger:
+[Lien Gossip-project sur Heroku]()
 
-* Database creation
+## Projet de groupe :tea: :
 
-* Database initialization
+* Guillaume Pichot   slack/  @Guillaume :tropical_fish:
+* Romain Recher     slack/  @Romain :whale2:
+* Samuel Assani   slack/  @Sassani :tiger2:
+* Hai-Dang Ha-Thuc  slack/  @Hai-Dang :leopard:
+* Fayçal Meghzili   slack/  @Fays :dolphin:
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+:end: :end:

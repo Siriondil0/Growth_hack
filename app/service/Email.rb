@@ -61,12 +61,11 @@ Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos ques
     email = gmail.compose do #on fait un compose pour préparer l'email 
       to "#{mail.email}" # on l'envoie à  chaque email de la colonne 2 du csv   
       subject "THP - L'école de programmation gratuite ! "
-      body  "Bonjour je m'appelle Cunégonde, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
+      body  "Bonjour je m'appelle Jhon, je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. 
 
 La pédagogie de notre école est celle du peer-learning, où nous travaillons par petits groupes sur des projets concrets qui font apprendre le code. 
-Le projet du jour est d'envoyer (avec du codage) des emails aux mairies pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous. Déjà 500 personnes sont passées par The Hacking Project. 
+Le projet du jour est d'envoyer (avec du codage) des emails aux habitant de Ghotham-City pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous . Déjà 500 personnes sont passées par The Hacking Project. 
 
-Est-ce que la mairie de #{row[0]} veut changer le monde avec nous ?
             
 Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : 06.95.46.60.80."
       end

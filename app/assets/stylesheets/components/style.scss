@@ -61,6 +61,7 @@ body {
 	color:#888888;
 	margin:0;
 }
+
 h2{
 	font-size:34px;
 	color:#222222;
@@ -100,8 +101,15 @@ p{
 	background:url(/assets/pw_maze_black_2X.png) left top repeat;
 	padding:280px 0;
 }
+
+.headergotham{
+	text-align:center;
+	background:url(/assets/gbg1.png) left top repeat;
+	padding:280px 0;
+}
+
 .logo{
-	width:130px;
+	width:500px;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -468,20 +476,56 @@ border: 2px solid #fff;
 	padding:25px 0;
     filter: alpha(opacity=60);
 }
+
+
+.c-logo-part-gotham{
+	background:white;
+	padding:25px 0;
+    filter: alpha(opacity=60);
+}
+
+
 .c-logo-part ul{
 	padding:0;
 	margin:0;
 	list-style:none;
 	text-align:center;
 }
+
+.c-logo-part-gotham ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+
+
+
+
 .c-logo-part ul li{
 	display:inline;
 	margin:0 25px;
 }
+
+.c-logo-part-gotham ul li{
+	display:inline;
+	margin:0 25px;
+}
+
+
+
+
 .c-logo-part ul a{
 	display:inline-block;
 	margin: 0 20px;
 }
+
+.c-logo-part-gotham ul a{
+	display:inline-block;
+	margin: 0 20px;
+}
+
+
 .main-section.team{
 	padding:85px 0;
 }
@@ -496,6 +540,8 @@ border: 2px solid #fff;
 	max-width:993px;
 	margin:0 auto;
 }
+
+
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
@@ -625,7 +671,7 @@ border: 2px solid #fff;
 	font-size: 15px;
 	font-weight:400;
 	float:left;
-	width:102px;
+	width:200px;
 	margin-right:12px;
 	line-height:28px;
 }

@@ -1,5 +1,5 @@
 # THP Jeudi S7
-## Gossip-project :
+## Growth_hack-project :
 Enoncé :
 
 ## Frontend
@@ -12,6 +12,9 @@ Enoncé :
 4. Intégragation de Heroku sheduler
 5. Fusion de la branch backend avec la branch master
 6. Imbrication du frontend avec le backend
+
+## finalisation
+1. test avec rspect
 
 ## Lien Heroku ::tiger:
 [Lien Gossip-project sur Heroku]()

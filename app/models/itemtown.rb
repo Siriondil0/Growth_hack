@@ -1,0 +1,2 @@
+class Itemtown < ApplicationRecord
+end

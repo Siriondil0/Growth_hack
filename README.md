@@ -1,9 +1,17 @@
 # THP Jeudi S7
 ## Growth_hack-project :
-Enoncé :
+Enoncé : Dans ce projet, vous allez reprendre en équipe le projet des landing pages, et leur donner le peps qui leur faut pour laisser tourner l'application et siroter des cafés pendant que l'application tourne. Voici ce que vous allez faire :
+
+* Vous allez donner de la forme à vos pages en intégrant un template WrapBootstrap ou en créant votre template
+* Vous allez faire d'autres landing pages, pour monter à 3
+* Vous allez avoir un service de mailer
+* Vous allez faire tourner vos opérations marketing grâce au Heroku Scheduler, pour avoir un afflux constant de personnes qui vont sur votre site
 
 ## Frontend
-
+3 pages pour différents publics :
+1. Classique
+2. Footballeur en reconversion
+3. Habitant de Gotham City
 
 ## Backend
 1. Création des clés api Twitter et Gmail.
@@ -17,7 +25,7 @@ Enoncé :
 1. test avec rspect
 
 ## Lien Heroku ::tiger:
-[Lien Gossip-project sur Heroku]()
+[Lien Growth Hacking sur Heroku](https://growth-hacking-thp.herokuapp.com/)
 
 ## Projet de groupe :tea: :
 

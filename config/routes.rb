@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   get '/griezmann', to: 'home#griezmann'
 
   post '/gotham', to: 'home#arkham'
+  post '/griezmann', to: 'home#benzema'
+  post '/classic', to: 'home#modern'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
